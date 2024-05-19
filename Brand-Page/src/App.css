@@ -16,11 +16,14 @@ button{
   margin: 0;
 
 }
+.container{
+  max-width: 1100px;
+  margin: 10px auto;
+}
 nav{
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
-  margin: 0 auto;
+ 
   height:  72px;
   align-items: center;
 }
@@ -28,4 +31,35 @@ nav ul{
   display:  flex;
   gap: 24px;
   list-style: none;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+
+}
+.hero h1{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.hero p{
+  font-weight: 600;
+  color: var(--grey);
+  max-width: 400px;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.secbtn{
+  background: transparent;
+  color: #5A5959;
+  border: 1px solid gray;
+}
+.heroContent{
+  display:flex;
+  flex-direction: column;
+  gap:26px;
 }

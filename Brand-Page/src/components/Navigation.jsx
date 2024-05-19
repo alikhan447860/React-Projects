@@ -4,7 +4,7 @@ const Navigation = () => {
     return (
         <>
           <div>
-            <nav>
+            <nav className='container'>
               <div className='logo'>
                 <img src="brand_logo.svg" alt="logo here" />
               </div>
